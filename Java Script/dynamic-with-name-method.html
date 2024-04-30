@@ -1,0 +1,16 @@
+<form name="digisnare" action="">
+    <p>No1</p><br>
+    <input type="text" name="num1"><br>
+    <p>No2</p><br>
+    <input type="text" name="num2"><br>
+    <input type="button" value="Check" onclick="check()">
+    </form>
+    <script>
+        function check() 
+        {
+            a=document.digisnare.num1.value; //accept as a string default
+            b=document.digisnare.num2.value; //accept as a string default
+            tot=Number(a)+Number(b); //converting string to number
+            alert(tot);
+        }
+    </script>

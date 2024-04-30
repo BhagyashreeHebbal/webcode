@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Types of css selectors</title>
+        <style>
+            h1{
+                color: red;
+            }
+            #box{
+                color: orange;
+            }
+            .abc{
+                text-align: center;
+            }
+            h4,h5{
+                text-align: right;
+            }
+            *text{
+                text-decoration: underline;
+            }
+            </style>
+    </head>
+    <body>
+        <h1>I am tagwise selector</h1>
+        <h2 id="box">I am tagwise selector</h2>
+        <h3 class="abc">I am tagwise selector</h3>
+        <h4>I am tagwise selector</h4>
+        <h5>I am tagwise selector</h5>
+    </body>
+</html>

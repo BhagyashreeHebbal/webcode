@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Position example</title>
+<style>
+*{
+margin:0px;
+}
+#whatsapp{
+left:30px;
+bottom:30px;
+/*border:solid 1px red;*/
+position:fixed;
+height:50px;
+width:50px;
+}
+#phone{
+left:30px;
+bottom:90px;
+/*border:solid 1px red;*/
+position:fixed;
+height:50px;
+width:50px;
+}
+#chat{
+right:0px;
+bottom:50%;
+/*border:solid 1px red;*/
+position:fixed;
+height:50px;
+width:50px;
+margin-bottom:-25px;
+}
+#dot{
+right:-18px;
+bottom:52%;
+/*border:solid 1px red;*/
+position:fixed;
+height:50px;
+width:50px;
+margin-bottom:-50px;
+}
+</style>
+</head>
+<body>
+<div id="whatsapp"><a href="https://api.whatsapp.com/send?phone=917411054225">
+<img src="images/wa.png"></a>
+</div><!--end of whatsapp-->
+<div id="phone"><a href="tel:+91-7411054225">
+<img src="images/phone.png"></a>
+</div><!--end of phone-->
+<div id="chat"><img src="images/wa.png"></div><!--end of chat-->
+<div id="dot"><img src="images/dot.png"></div><!--end of dot-->
+</body>
+</html>

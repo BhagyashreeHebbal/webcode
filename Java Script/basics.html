@@ -1,0 +1,63 @@
+<p>Inline javascript example </p>
+<button onclick="alert('Im inline js')">Click me</button>
+
+<p>Internal javascript example </p>
+<button onclick="tt1()">Click me</button>
+<script>
+function tt1()
+{
+confirm(" I m internal js");//you get both OK &CANCEL button
+}
+</script>
+
+<p>External javascript example </p>
+<button onclick="tt2()">Click me</button>
+<script src="script.js"></script>
+
+<p> Confirm() example</p>
+<button onclick="tt3()">Click the button and see result</button>
+<script>
+function tt3()
+{
+a=confirm(" Click any button to check result ");
+if(a==true)
+{
+alert(" You have clicked OK button ");
+}
+else {
+alert("You have clicked CANCEL button")
+}
+}
+</script>
+
+<p> Prompt() example</p>
+<button onclick="tt4()">Check vote eligibility</button>
+<script>
+function tt4()
+{
+a=prompt(" Enter your age ");
+if(a>=18)
+{
+alert(" Eligible");
+}
+else {
+alert("Not eligible");
+}
+}
+</script>
+
+<p> output/ print statement </p>
+<script>
+document.write ("welcome to digisnare ");
+document.writeln ("welcome to digisnare technologies");
+document.write ("welcome to digisnare ");
+console.log("Hello welcome");
+</script>
+
+<p> variable declaration</p>
+<script>
+var a=30;
+b=40;
+c=a+b;
+document.write("sum:"+c);
+</script>

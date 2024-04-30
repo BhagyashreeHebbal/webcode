@@ -1,0 +1,14 @@
+<p>No1</p><br>
+<input type="text" id="num1"><br>
+<p>No2</p><br>
+<input type="text" id="num2"><br>
+<input type="button" value="Check" onclick="check()">
+<script>
+    function check() 
+    {
+        a=document.getElementById("num1").value; //accept as a string default
+        b=document.getElementById("num2").value; //accept as a string default
+        tot=Number(a)+Number(b); //converting string to number
+        alert(tot);
+    }
+</script>
